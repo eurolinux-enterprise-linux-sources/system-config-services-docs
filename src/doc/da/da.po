@@ -1,0 +1,275 @@
+# Danish translation of system-config-services docs
+# Kris Thomsen <lakristho@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services\n"
+"POT-Creation-Date: 2008-03-12 11:32+0100\n"
+"PO-Revision-Date: 2009-03-28 22:41+0100\n"
+"Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:97(None)
+msgid ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+msgstr ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:22(title)
+msgid "Controlling Access to Services"
+msgstr "Adgangstyring til tjenester"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:27(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:28(date)
+msgid "2008-01-30"
+msgstr "30. januar 2008"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:31(revnumber)
+msgid "1.1"
+msgstr "1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:32(date)
+msgid "2008-03-05"
+msgstr "5. marts 2008"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:35(revnumber)
+msgid "1.1.1"
+msgstr "1.1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:36(date)
+msgid "2008-03-12"
+msgstr "12. marts 2008"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:41(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:60(para)
+msgid ""
+"Maintaining security on your system is extremely important, and one approach "
+"for this task is to manage access to system services carefully. Your system "
+"may need to provide open access to particular services (for example, "
+"<command>httpd</command> if you are running a Web server). However, if you "
+"do not need to provide a service, you should turn it off to minimize your "
+"exposure to possible bug exploits."
+msgstr ""
+"Det er ekstremt vigtigt at vedligeholde sikkerheden på dit system, og en tilgang "
+"til denne opgave er at håndtere adgangen til systemtjenester forsigtigt. Dit system "
+"skal måske åbne adgangen til særlige tjenester (for eksempel, "
+"<command>httpd</command> hvis du kører en webserver). Uanset, hvis du "
+"ikke behøver at udbyde en tjeneste, bør du slå den fra for at minimere din "
+"risiko for mulige fejl."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:44(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:63(para)
+msgid ""
+"There are several different methods for managing access to system services. "
+"Choose which method of management to use based on the service, your system's "
+"configuration, and your level of Linux expertise."
+msgstr ""
+"Der er flere forskellige metoder til håndteringen af adgang til systemtjenester. "
+"Vælg hvilke håndteringsmetoder der bruges, baseret på tjeneste, dit systems "
+"konfiguration og dit niveau af Linux-erfaring."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:47(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:66(para)
+msgid ""
+"The easiest way to deny access to a service is to turn it off. Both the "
+"services managed by <command>xinetd</command> and the services in the "
+"<filename>/etc/rc.d/init.d</filename> hierarchy (also known as SysV "
+"services) can be configured to start or stop with the <application>Services "
+"Configuration Tool</application>."
+msgstr ""
+"Den nemmeste måde at nægte adgang til en tjeneste, er at slå den fra. Både "
+"tjenesterne håndteret af <command>xinetd</command> og tjenesterne i "
+"<filename>/etc/rc.d/init.d</filename>-hierakiet (også kendt som SysV-"
+"tjenester), kan konfigureres til at starte og stoppe med <application>"
+"Tjenestekonfigurationsværktøjet</application>."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:55(trademark)
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:54(corpauthor)
+msgid "<placeholder-1/>, Inc."
+msgstr "<placeholder-1/>, Inc."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:73(command)
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:75(see)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:84(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:86(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:94(application)
+msgid "Services Configuration Tool"
+msgstr "Konfigurationsværktøj til tjenester"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:78(para)
+msgid ""
+"You must be running the <application>X</application> Window System and have "
+"root privileges to use the Services Configuration Tool. To start the "
+"application on the desktop, go to <menuchoice><guimenu>the main menu on the "
+"panel (the menu with the \"f\" icon)</guimenu><guisubmenu>System</"
+"guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Services</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Du skal have <application>X</application>-vinduessystemet kørende, og have "
+"root-rettigheder til at bruge Konfigurationsværktøjet til tjenester. For at "
+"starte programmet på skrivebordet, skal du gå til <menuchoice><guimenu>"
+"hovedmenuen i panelet (menuen med \"f\"-ikonet)</guimenu><guisubmenu>System</"
+"guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Tjenester</"
+"guimenuitem></menuchoice>."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:89(para)
+msgid ""
+"The <application>Services Configuration Tool</application> is a graphical "
+"application to configure which SysV services in the <filename>/etc/rc.d/init."
+"d</filename> directory are started at boot time (for runlevels 3, 4, and 5) "
+"and which <command>xinetd</command> services are enabled. It also allows you "
+"to start, stop, and restart SysV services."
+msgstr ""
+"<application>Tjenestekonfigurationsværktøjet</application> er et grafisk "
+"program til at konfigurere hvilke SysV-tjenester i <filename>/etc/rc.d/init."
+"d</filename>-kataloget, det startes under opstarten (i kørselsniveau 3, 4 og 5) "
+"og hvilke <command>xinetd</command>-tjenester der er aktiveret. Det gør dig også "
+"i stand til at starte, stoppe og genstarte SysV-tjenester."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:100(para)
+msgid "Configuring network services"
+msgstr "Konfiguration af netværkstjenester"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:106(para)
+msgid ""
+"The <application>Services Configuration Tool</application> lists the "
+"services from the <filename>/etc/rc.d/init.d</filename> directory as well as "
+"the services controlled by <command>xinetd</command>. Click on the name of "
+"the service from the list on the left-hand side of the application to "
+"display a brief description of that service as well as the status of the "
+"service. If the service is a SysV service, the status window shows whether "
+"the service is currently running."
+msgstr ""
+"<application>Konfigurationsværktøj til tjenester</application> viser "
+"tjenesterne fra <filename>/etc/rc.d/init.d</filename>-arkivet, såvel som "
+"tjenesterne kontrolleret af <command>xinetd</command>. Klik på tjenestens "
+"navn fra listen i venstre side af programmet, for at vise vice en kort beskrivelse "
+"af tjenesten sammen med tjenestens status. Hvis tjenesten er en SysV-tjeneste, "
+"viser statusvinduet om tjenesten kører i øjeblikket eller ej."
+
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:109(para)
+msgid ""
+"To start, stop, or restart a service immediately, select the service from "
+"the list and click the appropriate button on the toolbar (or choose the "
+"action from the <guimenu>Service</guimenu> pulldown menu). If the service is "
+"an <command>xinetd</command> service, the action buttons are disabled "
+"because they cannot be started or stopped individually."
+msgstr ""
+"For at starte, stoppe eller genstarte en tjeneste med det samme, skal du vælge "
+"tjenesten fra listen og klikke på den passende knap i værktøjslinjen (eller vælge "
+"handlingen fra <guimenu>Tjeneste</guitmenu> rullegardinsmenuen). Hvis tjenesten "
+"er en <command>xinetd</command>-tjeneste, er handlingsknapperne deaktiveret, "
+"fordi de ikke kan startes eller stoppes enkeltvis."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:113(title)
+msgid "Note"
+msgstr "Bemærk"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:114(para)
+msgid ""
+"When you save changes to <command>xinetd</command> services, "
+"<command>xinetd</command> is reloaded, and the changes take place "
+"immediately. When you save changes to other services, the runlevel is "
+"reconfigured, but the changes do not take effect immediately."
+msgstr ""
+"Når du gemmer ændringer til <command>xinetd</command>-tjenester "
+"bliver <command>xinetd</command> genindlæst, og ændringerne træder "
+"i kraft med det samme. Når du gemmer ændringer til andre tjenester "
+"bliver kørselsniveauet genkonfigureret, men ændringerne træder ikke "
+"i kraft med det samme."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:118(para)
+msgid ""
+"To enable a service, select the service in the list and click on one of the "
+"<guibutton>Enable</guibutton>, <guibutton>Disable</guibutton> or (to enable "
+"a SysV service in other than the default runlevels) <guibutton>Customize</"
+"guibutton> buttons in the toolbar or choose the equivalent action from the "
+"<guimenu>Service</guimenu> menu. In the case of a SysV service, the runlevel "
+"configuration is changed, but the runlevel is not restarted; thus, the "
+"changes do not take place immediately."
+msgstr ""
+"For at aktivere en tjeneste, skal du vælge tjenesten i listen og klikke på "
+"enten <guibutton>Aktivér</guibutton>, <guibutton>Deaktivér</guibutton> eller "
+"(for at aktivere en SysV-tjeneste i andre end standard kørselsniveauer) "
+"<guibutton>Tilpas</guibutton>-knappen i værktøjslinjen, eller vælge en "
+"lignende handling fra <guibutton>Service</guibutton>-menuen. I det tilfælde, "
+"at det er en SysV-tjeneste, ændres konfigurationen af kørselsniveauet, men "
+"kørselsniveauet bliver ikke genstartet, derfor træder ændringerne ikke i "
+"kraft med det samme." 
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:121(para)
+msgid ""
+"As an example: If you disable the <command>httpd</command> service, the "
+"runlevel configuration changes so that <command>httpd</command> is not "
+"started at boot time. However, the current runlevel is not reinitialized, so "
+"<command>httpd</command> is still running. Select one of following options "
+"at this point:"
+msgstr ""
+"Som et eksempel: Hvis du deaktiverer <command>httpd</command>-tjenesten, "
+"ændrer konfigurationen af kørselsniveauet sig, så <command>httpd</command> "
+"ikke bliver startet under opstarten. Selvom det nuværende kørselsniveau ikke "
+"er reinitialiseret, så kører <command>httpd</command> stadig. Vælg nu en af "
+"følgende indstillinger:"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:126(para)
+msgid ""
+"Stop the <command>httpd</command> service — Stop the service by selecting it "
+"from the list and clicking the <guibutton>Stop</guibutton> button. The "
+"status of the service will be updated accordingly."
+msgstr ""
+"Stop <command>httpd</command>-tjenesten — Stop tjenesten ved at vælge den "
+"fra listen og klik på <guibutton>Stop</guibutton>-knappen. Tjenestens status "
+"bliver opdateret med det same."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:131(para)
+msgid ""
+"Reinitialize the runlevel — Reinitialize the runlevel by going to a shell "
+"prompt and typing the command <command>telinit <replaceable>x</replaceable></"
+"command> (where <replaceable>x</replaceable> is the runlevel number; for "
+"example, 3.). This option is recommended if you enable or disable multiple "
+"services and want to activate the changes immediately."
+msgstr ""
+"Geninitialisér kørselsniveauet - Geninitialisér kørselsniveauet ved at gå til en "
+"skalprompt og indtast kommandoen <command>telinit <replaceable>x</replaceable></"
+"command> (hvor <replaceable>x</replaceable> er nummeret på kørselsniveauet; for "
+"eksempel 3). Denne indstilling er anbefalet, hvis du aktiverer eller deaktiverer "
+"flere tjenester og ønsker at aktivere ændringerne med det samme."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:136(para)
+msgid ""
+"Do nothing else — You do not have to stop the <command>httpd</command> "
+"service. You can wait until the system is rebooted for the service to stop. "
+"The next time the system is booted, the runlevel is initialized without the "
+"<command>httpd</command> service running."
+msgstr ""
+"Gør ikke andet — Du skal ikke stoppe <command>httpd</command>-tjenesten. "
+"Du kan vente indtil systemet bliver genstartet, for at tjenesten bliver "
+"stoppet. Næste gang systemet bliver starte, bliver kørselsniveauet initialiseret "
+"uden at <command>httpd</command>-tjenesten kører."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Kris Thomsen\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
+

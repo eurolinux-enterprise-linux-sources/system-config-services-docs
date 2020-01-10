@@ -1,0 +1,146 @@
+# Brazilian Portuguese translation of system-config-services-docs.
+# This file is distributed under the same license as the system-config-services-docs package.
+#
+# junior <joseroberto@ieee.org>, 2009.
+# Vitor Vilas Boas <vitor@vitorvilasboas.com.br>, 2009.
+# Igor Pires Soares <igor@projetofedora.org>, 2009.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services.docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-12 11:32+0100\n"
+"PO-Revision-Date: 2009-06-20 16:51-0300\n"
+"Last-Translator: Vitor Vilas Boas <vitor@vitorvilasboas.com.br>\n"
+"Language-Team: Brazilian Portuguese <fedora-trans-pt_br@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:97(None)
+msgid "@@image: 'images/system-config-services.png'; md5=b16def702fe4c9ebb1c6f0c1c7721000"
+msgstr "@@image: 'images/system-config-services.png'; md5=b16def702fe4c9ebb1c6f0c1c7721000"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:22(title)
+msgid "Controlling Access to Services"
+msgstr "Controlando Acesso aos Serviços"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:27(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:28(date)
+msgid "2008-01-30"
+msgstr "30/01/2008"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:31(revnumber)
+msgid "1.1"
+msgstr "1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:32(date)
+msgid "2008-03-05"
+msgstr "05/03/2008"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:35(revnumber)
+msgid "1.1.1"
+msgstr "1.1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:36(date)
+msgid "2008-03-12"
+msgstr "12/03/2008"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:41(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:60(para)
+msgid "Maintaining security on your system is extremely important, and one approach for this task is to manage access to system services carefully. Your system may need to provide open access to particular services (for example, <command>httpd</command> if you are running a Web server). However, if you do not need to provide a service, you should turn it off to minimize your exposure to possible bug exploits."
+msgstr "Manter a segurança em seu sistema é extremamente importante e uma abordagem para esta tarefa é gerenciar o acesso aos serviços do sistema com muita cautela. Seu sistema pode precisar fornecer acesso a serviços específicos (por exemplo, o <command>httpd</ command>, caso você esteja executando um servidor Web). No entanto, se você não precisa forncecer um determinado serviço, você deve desligá-lo minimizando a sua exposição a uma possível falha na segurança."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:44(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:63(para)
+msgid "There are several different methods for managing access to system services. Choose which method of management to use based on the service, your system's configuration, and your level of Linux expertise."
+msgstr "Há muitos métodos diferentes para gerenciar o acesso aos serviços do sistema. Escolha qual método de gerenciamento utilizar baseado no serviço, na configuração do seu sistema e no seu nível de especialização."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:47(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:66(para)
+msgid "The easiest way to deny access to a service is to turn it off. Both the services managed by <command>xinetd</command> and the services in the <filename>/etc/rc.d/init.d</filename> hierarchy (also known as SysV services) can be configured to start or stop with the <application>Services Configuration Tool</application>."
+msgstr "O meio mais fácil para bloquear acesso a um serviço é desligando-o. Ambos os serviços gerenciados pelo <command>xinetd</command> e os serviços que estão na hierarquia do <filename>/etc/rc.d/init.d</filename> (também conhecido por Serviços SysV) podem ser configurados para serem ou não iniciados com a <application>Ferramenta de Configuração de Serviços</application>."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:55(trademark)
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:54(corpauthor)
+msgid "<placeholder-1/>, Inc."
+msgstr "<placeholder-1/>, Inc."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:73(command)
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:75(see)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:84(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:86(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:94(application)
+msgid "Services Configuration Tool"
+msgstr "Ferramenta de Configuração de Serviços"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:78(para)
+msgid "You must be running the <application>X</application> Window System and have root privileges to use the Services Configuration Tool. To start the application on the desktop, go to <menuchoice><guimenu>the main menu on the panel (the menu with the \"f\" icon)</guimenu><guisubmenu>System</guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Services</guimenuitem></menuchoice>."
+msgstr "Você deve estar executando o <application>X</application> Window System e ter acesso aos privilégios de root para usar a Ferramenta de Configuração de Serviços. Para iniciar o aplicativo a partir da área de trabalho, vá ao <menuchoice><guimenu>o menu principal no painel (o menu com o ícone de um \"f\")</guimenu><guisubmenu>Sistema</guisubmenu><guisubmenu>Administração</guisubmenu><guimenuitem>Serviços</guimenuitem></menuchoice>."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:89(para)
+msgid "The <application>Services Configuration Tool</application> is a graphical application to configure which SysV services in the <filename>/etc/rc.d/init.d</filename> directory are started at boot time (for runlevels 3, 4, and 5) and which <command>xinetd</command> services are enabled. It also allows you to start, stop, and restart SysV services."
+msgstr "A <application>Ferramenta de Configuração de Serviços</applications> é um aplicativo gráfico para configurar quais serviços SysV no diretório <filename>/etc/rc.d/init.d</filename> serão iniciados durante a inicialização (nos níveis de execução 3, 4 e 5) e quais serviços <command>xinetd</command> estão ativos. Ele também permite que você inicie, pare ou reinicie qualquer outro serviço SysV."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:100(para)
+msgid "Configuring network services"
+msgstr "Configurando serviços da rede"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:106(para)
+msgid "The <application>Services Configuration Tool</application> lists the services from the <filename>/etc/rc.d/init.d</filename> directory as well as the services controlled by <command>xinetd</command>. Click on the name of the service from the list on the left-hand side of the application to display a brief description of that service as well as the status of the service. If the service is a SysV service, the status window shows whether the service is currently running."
+msgstr "A <application>Ferramenta de Configuração de Serviços</application> lista tanto os serviços do diretório <filename>/etc/rc.d/init.d</filename> como os que são controlados pelo <command>xinetd</command>. Clique sobre o nome do serviço localizado do lado esquerdo do aplicativo para mostrar uma descrição básica do status do serviço. Se o serviço é um SysV, a janela de status mostra se o mesmo está executando no momento."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:109(para)
+msgid "To start, stop, or restart a service immediately, select the service from the list and click the appropriate button on the toolbar (or choose the action from the <guimenu>Service</guimenu> pulldown menu). If the service is an <command>xinetd</command> service, the action buttons are disabled because they cannot be started or stopped individually."
+msgstr "Para inciar, parar ou reiniciar o serviço imediatamente, selecione o serviço na lista e clique no botão apropriado na barra de ferramentas (ou escolha a ação a partir do menu suspenso <guimenu>Service</guimenu>). Se o serviço é um serviço <command>xinetd</command>, o botão de ação será desabilitado porque eles não podem ser iniciados ou parados individualmente."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:113(title)
+msgid "Note"
+msgstr "Nota"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:114(para)
+msgid "When you save changes to <command>xinetd</command> services, <command>xinetd</command> is reloaded, and the changes take place immediately. When you save changes to other services, the runlevel is reconfigured, but the changes do not take effect immediately."
+msgstr "Quando você salva as alterações nos serviços <command>xinetd</command>, o <command>xinetd</command> é recarregado e as alterações efetuadas imediatamente. Quando você salva alterações para outro serviço, o nível de execução é reconfigurado, mas as alterações não têm efeito imediato."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:118(para)
+msgid "To enable a service, select the service in the list and click on one of the <guibutton>Enable</guibutton>, <guibutton>Disable</guibutton> or (to enable a SysV service in other than the default runlevels) <guibutton>Customize</guibutton> buttons in the toolbar or choose the equivalent action from the <guimenu>Service</guimenu> menu. In the case of a SysV service, the runlevel configuration is changed, but the runlevel is not restarted; thus, the changes do not take place immediately."
+msgstr "Para habilitar o serviço, selecione-o na lista e clique em <guibutton>Habilitar</guibutton>, <guibutton>Desabilitar</guibutton> ou (para habilitar um serviço em SysV diferente do nível de execução padrão) <guibutton>Personalizar</guibutton> botão na barra de ferramentas ou escolha uma ação equivalente no menu <guimenu>Serviço</guimenu>. No caso de um serviço SysV, a configuração do nível de execução é alterada, mas ele não é reiniciado; por isso as alterações não acontecem imediatamente."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:121(para)
+msgid "As an example: If you disable the <command>httpd</command> service, the runlevel configuration changes so that <command>httpd</command> is not started at boot time. However, the current runlevel is not reinitialized, so <command>httpd</command> is still running. Select one of following options at this point:"
+msgstr "Como exemplo, se você desabilitar o serviço <command>httpd</command>, a configuração do nível de execução é alterada de modo que o <command>httpd</command> não seja iniciado durante a inicialização. No entanto, o nível de execução atual não é reinicializado, portanto o <comando>httpd</ command> ainda estará em execução. Escolha uma das seguintes opções neste ponto:"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:126(para)
+msgid "Stop the <command>httpd</command> service — Stop the service by selecting it from the list and clicking the <guibutton>Stop</guibutton> button. The status of the service will be updated accordingly."
+msgstr "Parar o serviço <command>httpd</command> — Pare o serviço selecionando-o na lista e clicando no botão <guibutton>Parar</guibutton>. O status do serviço será atualizado apropriadamente."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:131(para)
+msgid "Reinitialize the runlevel — Reinitialize the runlevel by going to a shell prompt and typing the command <command>telinit <replaceable>x</replaceable></command> (where <replaceable>x</replaceable> is the runlevel number; for example, 3.). This option is recommended if you enable or disable multiple services and want to activate the changes immediately."
+msgstr "Reinicializar o nível de execução — Reinicialize o nível de execução indo para uma janela do shell e escrevendo o comando <command>telinit <replaceable>x</replaceable></command> (onde <replaceable>x</replaceable> é o número do nível de execução; por exemplo, 3.). Esta opção é recomendada se você habilitar ou desabilitar múltiplos serviços e quiser ativar as mudanças imediatamente."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:136(para)
+msgid "Do nothing else — You do not have to stop the <command>httpd</command> service. You can wait until the system is rebooted for the service to stop. The next time the system is booted, the runlevel is initialized without the <command>httpd</command> service running."
+msgstr "Não faça nada — Você não tem que parar o serviço <command>httpd</command>. Você pode esperar até que o sistema seja reinicializado para parar o serviço. Na próxima vez que o sistema for iniciado, o nível de execução será inicializado sem o serviço <command>httpd</command> em execução."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Vitor Vilas Boas <vitor@vitorvilasboas.com.br>, 2009\n"
+"Igor Pires Soares <igor@projetofedora.org>, 2009"
+

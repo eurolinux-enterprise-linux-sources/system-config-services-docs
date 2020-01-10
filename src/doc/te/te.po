@@ -1,0 +1,263 @@
+# translation of system-config-services.master-docs.te.po to Telugu
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services.master-docs.te\n"
+"POT-Creation-Date: 2008-03-12 11:32+0100\n"
+"PO-Revision-Date: 2009-11-12 17:19+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:97(None)
+msgid ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+msgstr ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:22(title)
+msgid "Controlling Access to Services"
+msgstr "సేవలకు యాక్సెస్‌ను నియంత్రిస్తుంది"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:27(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:28(date)
+msgid "2008-01-30"
+msgstr "2008-01-30"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:31(revnumber)
+msgid "1.1"
+msgstr "1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:32(date)
+msgid "2008-03-05"
+msgstr "2008-03-05"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:35(revnumber)
+msgid "1.1.1"
+msgstr "1.1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:36(date)
+msgid "2008-03-12"
+msgstr "2008-03-12"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:41(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:60(para)
+msgid ""
+"Maintaining security on your system is extremely important, and one approach "
+"for this task is to manage access to system services carefully. Your system "
+"may need to provide open access to particular services (for example, "
+"<command>httpd</command> if you are running a Web server). However, if you "
+"do not need to provide a service, you should turn it off to minimize your "
+"exposure to possible bug exploits."
+msgstr ""
+"మీ సిస్టమ్‌కు భద్రతను సమకూర్చడం అనునది చాలా ముఖ్యమైంది, మరియు ఈ కర్తవ్యము నిర్వహించుటకు "
+"వొక మార్గమేమిటంటే మీ సిస్టమ్‌ సేవలకు యాక్సెస్‌ను జాగ్రత్తగా నిర్వహించుట. మీ సిస్టమ్ కొన్ని సేవలకు "
+"వొపెన్ యాక్సెస్‌ను అందించవలసి రావచ్చు (ఉదాహరణకు, మీరు వెబ్ సేవికను నడుపుతుంటే "
+"<command>httpd</command>). ఏమైనప్పటికీ, మీరు సేవ అందించవలసిన అవసరము లేకుంటే, "
+"మీరు బగ్ బారిన పడకుండా వుండుటకు దానిని ఆఫ్ చేయుట మంచిది."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:44(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:63(para)
+msgid ""
+"There are several different methods for managing access to system services. "
+"Choose which method of management to use based on the service, your system's "
+"configuration, and your level of Linux expertise."
+msgstr ""
+"సిస్టమ్ సేవలకు యాక్సెస్‌ను నిర్వహించుటకు చాలా విభిన్న మార్గాలు వున్నాయి. ఏ నిర్వహణా "
+"పద్దతి వుపయోగించాలో అనునది యెంచుకొనుటకు, మీ సేవపై, మరియు సిస్టమ్ ఆకృతీకరణపై, "
+"లైనక్సు అనుభవంపై ఆధారపడి నిర్ణయించుకోండి."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:47(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:66(para)
+msgid ""
+"The easiest way to deny access to a service is to turn it off. Both the "
+"services managed by <command>xinetd</command> and the services in the "
+"<filename>/etc/rc.d/init.d</filename> hierarchy (also known as SysV "
+"services) can be configured to start or stop with the <application>Services "
+"Configuration Tool</application>."
+msgstr ""
+"సేవకు యాక్సెస్‌ను తిరస్కరించుటకు సులువైన మార్గము దానిని ఆఫ్ చేయుట. "
+"<command>xinetd</command> మరియు <filename>/etc/rc.d/init.d</filename> "
+"నందలి సేవల హైరార్చీ (SysV సేవలగాకూడా తెలుపబడతాయి) <application>సేవల ఆకృతీకరణ "
+"సాధనము</application> ద్వారా ఆకృతీకరించవచ్చును."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:55(trademark)
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:54(corpauthor)
+msgid "<placeholder-1/>, Inc."
+msgstr "<placeholder-1/>, Inc."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:73(command)
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:75(see)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:84(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:86(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:94(application)
+msgid "Services Configuration Tool"
+msgstr "సేవల ఆకృతీకరణ సాధనము"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:78(para)
+msgid ""
+"You must be running the <application>X</application> Window System and have "
+"root privileges to use the Services Configuration Tool. To start the "
+"application on the desktop, go to <menuchoice><guimenu>the main menu on the "
+"panel (the menu with the \"f\" icon)</guimenu><guisubmenu>System</"
+"guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Services</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"సేవల ఆకృతీకరణ సాధనమును వుపయోగించుటకు మీరు <application>X</application> "
+"విండో సిస్టమ్ నడుపుతూ వుండాలి మరియు root అనుమతులను కలిగివుండాలి. డెస్కుటాప్‌పై "
+"అనువర్తనమును ప్రారంభించుటకు, <menuchoice><guimenu>ప్యానల్ పైని ముఖ్యమెనూ "
+"(\"f\" ప్రతిమతో వున్న మెనూ)</guimenu>నందలి <guisubmenu>సిస్టమ్</"
+"guisubmenu><guisubmenu>నిర్వహణ</guisubmenu><guimenuitem>సేవలు</"
+"guimenuitem></menuchoice>కు వెళ్ళుము."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:89(para)
+msgid ""
+"The <application>Services Configuration Tool</application> is a graphical "
+"application to configure which SysV services in the <filename>/etc/rc.d/init."
+"d</filename> directory are started at boot time (for runlevels 3, 4, and 5) "
+"and which <command>xinetd</command> services are enabled. It also allows you "
+"to start, stop, and restart SysV services."
+msgstr ""
+"<filename>/etc/rc.d/init.d</filename> డైరెక్టరీ నందలి ఏ SysV సేవలు బూట్ "
+"సమయమందు (రన్‌లెవల్సు 3,4, మరియు 5 కొరకు) ప్రారంభించాలో మరియు ఏ "
+"command>xinetd</command> సేవలు చేతనము చేయబడాలో ఆకృతీకరించుటకు "
+"<application>సేవల ఆకృతీకరణ సాధనము</application> వొక గ్రాఫికల్ ఆనువర్తనము. "
+"ఇది మిమ్ములను SysV సేవలను ప్రారంభించుటకు, ఆపుటకు, మరియు పునఃప్రారంభించుటకు "
+"అనుమతిస్తుంది."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:100(para)
+msgid "Configuring network services"
+msgstr "నెట్వర్కు సేవలను ఆకృతీకరించుట"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:106(para)
+msgid ""
+"The <application>Services Configuration Tool</application> lists the "
+"services from the <filename>/etc/rc.d/init.d</filename> directory as well as "
+"the services controlled by <command>xinetd</command>. Click on the name of "
+"the service from the list on the left-hand side of the application to "
+"display a brief description of that service as well as the status of the "
+"service. If the service is a SysV service, the status window shows whether "
+"the service is currently running."
+msgstr ""
+"<application>సేవల ఆకృతీకరణ సాధనము</application> అనునది "
+"<filename>/etc/rc.d/init.d</filename> డైరెక్టరీనుండి వచ్చు సేవలను అదేవిధంగా "
+"<command>xinetd</command> ద్వారా నియంత్రించబడే సేవలను జాబితా చేస్తుంది. "
+"సేవయొక్క వివరణను మరియు దాని స్థితిని ప్రదర్శించుటకు అనువర్తనము యెడమప్రక్కని జాబితాలోని "
+"సేవనామము పై నొక్కండి. ఒకవేళ సేవ SysV సేవ అయితే, స్థితి విండో సేవ ప్రస్తుతం నడుస్తోందో లేదో "
+"చూపుతుంది."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:109(para)
+msgid ""
+"To start, stop, or restart a service immediately, select the service from "
+"the list and click the appropriate button on the toolbar (or choose the "
+"action from the <guimenu>Service</guimenu> pulldown menu). If the service is "
+"an <command>xinetd</command> service, the action buttons are disabled "
+"because they cannot be started or stopped individually."
+msgstr ""
+"ఒక సేవను తక్షణమే ప్రారంభించుటకు, ఆపుటకు, లేదా పునఃప్రారంభించుటకు, జాబితానుండి సేవను "
+"యెంపికచేసి సాధనపట్టీపై తగు బటన్‌ను నొక్కండి (లేదా కావలసిన చర్యను <guimenu>సేవ</guimenu> "
+"పుల్‌డౌన్ మెనూనుండి యెంచుకొనుము). ఒకవేళ సేవ <command>xinetd</command> సేవ "
+"అయితే, చర్యా బటన్లు అచేతనము చేయబడతాయి యెంచేతంటే అవి స్వతంత్రముగా ప్రారంభించబడలేవు "
+"మరియు ఆపబడలేవు."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:113(title)
+msgid "Note"
+msgstr "గమనిక"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:114(para)
+msgid ""
+"When you save changes to <command>xinetd</command> services, "
+"<command>xinetd</command> is reloaded, and the changes take place "
+"immediately. When you save changes to other services, the runlevel is "
+"reconfigured, but the changes do not take effect immediately."
+msgstr ""
+"మీరు <command>xinetd</command> సేవల మార్పులను దాచినప్పుడు, "
+"<command>xinetd</command> తిరిగిలోడు చేయబడుతుంది, మరియు మార్పులు "
+"తక్షణమే వర్తించబడతాయి. మీరు యితర సేవల మార్పులను దాచినప్పుడు, రన్‌లెవల్ తిరిగిఆకృతీకరించ "
+"బడుతుంది, అయితే మార్పులు తక్షణమే ఆపాదించబడవు."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:118(para)
+msgid ""
+"To enable a service, select the service in the list and click on one of the "
+"<guibutton>Enable</guibutton>, <guibutton>Disable</guibutton> or (to enable "
+"a SysV service in other than the default runlevels) <guibutton>Customize</"
+"guibutton> buttons in the toolbar or choose the equivalent action from the "
+"<guimenu>Service</guimenu> menu. In the case of a SysV service, the runlevel "
+"configuration is changed, but the runlevel is not restarted; thus, the "
+"changes do not take place immediately."
+msgstr ""
+"సేవను చేతనము చేయుటకు, జాబితా నందలి సేవను యెంపికచేసి, <guibutton>చేతనముచేయి</guibutton>, <guibutton>అచేతనముచేయి</guibutton> లేదా (అప్రమేయ రన్‌లెవల్సు కానివాటినందు SysV సేవను "
+"చేతనము చేయుటకు) సాధనపట్టీ నందలి<guibutton>Customize</guibutton> బటన్స్ నొక్కుము లేదా "
+"<guimenu>Service</guimenu> మెనూనుండి సమానమగు చర్యను యెంచుకొనుము. SysV సేవకు మాత్రం, "
+"రన్‌లెవల్ ఆకృతీకరణ మార్చబడి, రన్‌లెవల్ పునఃప్రారంభించబడక పోతే; అప్పుడు, మార్పులు తక్షణమే అమలు చెందవు."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:121(para)
+msgid ""
+"As an example: If you disable the <command>httpd</command> service, the "
+"runlevel configuration changes so that <command>httpd</command> is not "
+"started at boot time. However, the current runlevel is not reinitialized, so "
+"<command>httpd</command> is still running. Select one of following options "
+"at this point:"
+msgstr ""
+"ఉదాహరణకు: మీరు <command>httpd</command> సేవను అచేతనము చేస్తే, రన్‌లెవల్ ఆకృతీకరణ "
+"మారుతుంది కనుక <command>httpd</command> బూట్ సమయమునందు ప్రారంభించబడదు. "
+"ఏమైనప్పుటి, ప్రస్తుత రన్‌లెవల్ పునఃసిద్దీకరించ(రీయినీషలైజ్) బడదు, <command>httpd</command> "
+"యింకా నడుస్తూనే వుంటుంది. ఈ స్థానంలో ఈ క్రింది ఐచ్చికాలలో వొక దానిని యెంపికచేయుము:"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:126(para)
+msgid ""
+"Stop the <command>httpd</command> service — Stop the service by selecting it "
+"from the list and clicking the <guibutton>Stop</guibutton> button. The "
+"status of the service will be updated accordingly."
+msgstr ""
+"<command>httpd</command> సేవను ఆపుము — జాబితానుండి సేవను యెంపికచేసి "
+"<guibutton>ఆపుము</guibutton> బటన్ నొక్కి సేవను ఆపుము. సేవ యొక్క స్థితి దానిని "
+"అనుసరించి నవీకరించబడుతుంది."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:131(para)
+msgid ""
+"Reinitialize the runlevel — Reinitialize the runlevel by going to a shell "
+"prompt and typing the command <command>telinit <replaceable>x</replaceable></"
+"command> (where <replaceable>x</replaceable> is the runlevel number; for "
+"example, 3.). This option is recommended if you enable or disable multiple "
+"services and want to activate the changes immediately."
+msgstr ""
+"రన్‌లెవల్‌ను పునఃసిద్దీకరించుము — షెల్ ప్రామ్ట్ కు వెళ్ళి <command>telinit <replaceable>x</replaceable></"
+"command> (ఇచట <replaceable>x</replaceable> రన్‌లెవల్ సంఖ్య; ఉదాహరణకు, 3) టైపుచేసి "
+"రన్‌లెవల్ పునఃసిద్దీకరించుము. మీరు బహుళ సేవలను చేతనము లేదా అచేతనము చేస్తూ మార్పులను తక్షణమే క్రియాశీలము "
+"చేయాలంటే ఈ ఐచ్చికం సిఫార్సు చేయబడింది."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:136(para)
+msgid ""
+"Do nothing else — You do not have to stop the <command>httpd</command> "
+"service. You can wait until the system is rebooted for the service to stop. "
+"The next time the system is booted, the runlevel is initialized without the "
+"<command>httpd</command> service running."
+msgstr ""
+"ఇంకా యేమి చేయవద్దు — <command>httpd</command> సేవను ఆపవలసిన అవసరం లేదు. "
+"సేవ ఆగిపోవుటకు మీరు సిస్టమ్ పునఃప్రారంభమగునంత వరకు వేచివుండవచ్చు. తరువాతి సారి సిస్టమ్ "
+"బూటగునప్పుడు, రన్‌లెవల్ <command>httpd</command> నడుస్తూ లేకుండా సిద్దీకరించబడుతుంది."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:0(None)
+msgid "translator-credits"
+msgstr "కృష్ణబాబు కె <kkrothap@redhat.com> 2009."
+

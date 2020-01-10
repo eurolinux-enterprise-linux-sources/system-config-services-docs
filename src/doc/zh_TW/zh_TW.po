@@ -1,0 +1,204 @@
+# translation of system-config-services.docs.po to Traditional Chinese
+# Terry Chuang <tchuang@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services.docs\n"
+"POT-Creation-Date: 2008-03-12 11:32+0100\n"
+"PO-Revision-Date: 2009-09-08 14:51+1000\n"
+"Last-Translator: Terry Chuang <tchuang@redhat.com>\n"
+"Language-Team: Traditional Chinese <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:97(None)
+msgid ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+msgstr ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:22(title)
+msgid "Controlling Access to Services"
+msgstr "服務的控制存取"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:27(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:28(date)
+msgid "2008-01-30"
+msgstr "2008-01-30"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:31(revnumber)
+msgid "1.1"
+msgstr "1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:32(date)
+msgid "2008-03-05"
+msgstr "2008-03-05"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:35(revnumber)
+msgid "1.1.1"
+msgstr "1.1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:36(date)
+msgid "2008-03-12"
+msgstr "2008-03-12"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:41(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:60(para)
+msgid ""
+"Maintaining security on your system is extremely important, and one approach "
+"for this task is to manage access to system services carefully. Your system "
+"may need to provide open access to particular services (for example, "
+"<command>httpd</command> if you are running a Web server). However, if you "
+"do not need to provide a service, you should turn it off to minimize your "
+"exposure to possible bug exploits."
+msgstr "維護您系統上的安全性是非常重要的，其中一種方法就是小心地管理系統服務的存取權限。您的系統可能需要針對特定服務提供開放式的存取權限，比方說（當您在執行網站伺服器時）<command>httpd</command>。然而，若您不需要提供服務的話，您應將它關閉以降低您遭到外部攻擊的機會。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:44(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:63(para)
+msgid ""
+"There are several different methods for managing access to system services. "
+"Choose which method of management to use based on the service, your system's "
+"configuration, and your level of Linux expertise."
+msgstr "有幾種方式可用來管理系統服務的存取權限。請根據服務、您系統的設定，以及您對於 Linux 的理解程度來選擇要使用哪種管理方式。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:47(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:66(para)
+msgid ""
+"The easiest way to deny access to a service is to turn it off. Both the "
+"services managed by <command>xinetd</command> and the services in the "
+"<filename>/etc/rc.d/init.d</filename> hierarchy (also known as SysV "
+"services) can be configured to start or stop with the <application>Services "
+"Configuration Tool</application>."
+msgstr "要拒絕對於一項服務的存取請求的最簡單方式就是將它關閉。由 <command>xinetd</command> 所管理的服務以及 <filename>/etc/rc.d/init.d</filename> 層級中的服務（亦稱為 SysV 服務）皆可被透過使用<application>服務設定工具</application>來將其停用或啟用。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:55(trademark)
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:54(corpauthor)
+msgid "<placeholder-1/>, Inc."
+msgstr "<placeholder-1/>, Inc."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:73(command)
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:75(see)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:84(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:86(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:94(application)
+msgid "Services Configuration Tool"
+msgstr "服務設定工具"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:78(para)
+msgid ""
+"You must be running the <application>X</application> Window System and have "
+"root privileges to use the Services Configuration Tool. To start the "
+"application on the desktop, go to <menuchoice><guimenu>the main menu on the "
+"panel (the menu with the \"f\" icon)</guimenu><guisubmenu>System</"
+"guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Services</"
+"guimenuitem></menuchoice>."
+msgstr "您必須執行 <application>X</application> Window System 並且擁有 root 權限才可使用服務設定工具。若要啟用該應用程式，請在桌面上點選<menuchoice><guimenu>面板上的主選單（有個「f」圖示的選單）</guimenu><guisubmenu>系統</guisubmenu><guisubmenu>管理</guisubmenu><guimenuitem>服務</guimenuitem></menuchoice>。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:89(para)
+msgid ""
+"The <application>Services Configuration Tool</application> is a graphical "
+"application to configure which SysV services in the <filename>/etc/rc.d/init."
+"d</filename> directory are started at boot time (for runlevels 3, 4, and 5) "
+"and which <command>xinetd</command> services are enabled. It also allows you "
+"to start, stop, and restart SysV services."
+msgstr "<application>服務設定工具</application>是個用來設定開機時（runlevels 3、4 與 5）在 <filename>/etc/rc.d/init.d</filename> 目錄中的哪項 Sys V 服務會被啟用以及哪項 <command>xinetd</command> 服務會被啟用的圖形化應用程式。它同時能讓您啟用、停用與重新啟用 SysV 服務。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:100(para)
+msgid "Configuring network services"
+msgstr "設定網路服務"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:106(para)
+msgid ""
+"The <application>Services Configuration Tool</application> lists the "
+"services from the <filename>/etc/rc.d/init.d</filename> directory as well as "
+"the services controlled by <command>xinetd</command>. Click on the name of "
+"the service from the list on the left-hand side of the application to "
+"display a brief description of that service as well as the status of the "
+"service. If the service is a SysV service, the status window shows whether "
+"the service is currently running."
+msgstr "<application>服務設定工具</application>會將 <filename>/etc/rc.d/init.d</filename> 目錄中的服務以及由 <command>xinetd</command> 所控制的服務列出。請點選應用程式左方清單中的服務名稱以顯示該服務的詳細描述以及服務狀態。若該項服務為 SysV 服務的話，狀態視窗便會顯示這項服務是否正在執行。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:109(para)
+msgid ""
+"To start, stop, or restart a service immediately, select the service from "
+"the list and click the appropriate button on the toolbar (or choose the "
+"action from the <guimenu>Service</guimenu> pulldown menu). If the service is "
+"an <command>xinetd</command> service, the action buttons are disabled "
+"because they cannot be started or stopped individually."
+msgstr "若要即刻啟用、停用或重新啟用一項服務，請由清單中選取服務並點選工具列上的適當按鈕（或由<guimenu>服務</guimenu>下拉式選單中選取欲進行的動作）。若該項服務為一項 <command>xinetd</command> 服務的話，動作按鈕就無法使用，因為它們無法個別地被啟用或停用。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:113(title)
+msgid "Note"
+msgstr "請注意"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:114(para)
+msgid ""
+"When you save changes to <command>xinetd</command> services, "
+"<command>xinetd</command> is reloaded, and the changes take place "
+"immediately. When you save changes to other services, the runlevel is "
+"reconfigured, but the changes do not take effect immediately."
+msgstr "當您將 <command>xinetd</command> 服務的變更儲存時，<command>xinetd</command> 會被重新載入，並且所作的變更將會即刻生效。當您儲存其它服務的變更時，runlevel 將會被重新設定，不過變更卻不會即刻生效。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:118(para)
+msgid ""
+"To enable a service, select the service in the list and click on one of the "
+"<guibutton>Enable</guibutton>, <guibutton>Disable</guibutton> or (to enable "
+"a SysV service in other than the default runlevels) <guibutton>Customize</"
+"guibutton> buttons in the toolbar or choose the equivalent action from the "
+"<guimenu>Service</guimenu> menu. In the case of a SysV service, the runlevel "
+"configuration is changed, but the runlevel is not restarted; thus, the "
+"changes do not take place immediately."
+msgstr "若要啟用一項服務，請由清單中選擇服務並按下工具列中的<guibutton>啟用</guibutton>、<guibutton>停用</guibutton>或（用來在預設 runlevel 之外的 runlevel 中啟用 SysV 服務）<guibutton>自訂</guibutton>按鈕，或由<guimenu>服務</guimenu>選單中選相等的動作。在使用 SysV 服務的情況下，runlevel 的變更不會即刻生效。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:121(para)
+msgid ""
+"As an example: If you disable the <command>httpd</command> service, the "
+"runlevel configuration changes so that <command>httpd</command> is not "
+"started at boot time. However, the current runlevel is not reinitialized, so "
+"<command>httpd</command> is still running. Select one of following options "
+"at this point:"
+msgstr "範例：比方說若您停用 <command>httpd</command> 服務，runlevel 設定便會改變，如此一來 <command>httpd</command> 便不會在開機時啟用。然而，目前的 runlevel 不會被重新初始化，因此 <command>httpd</command> 會持續執行。在此情況下請選擇下列其中一個選項："
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:126(para)
+msgid ""
+"Stop the <command>httpd</command> service — Stop the service by selecting it "
+"from the list and clicking the <guibutton>Stop</guibutton> button. The "
+"status of the service will be updated accordingly."
+msgstr "停止 <command>httpd</command> 服務 — 藉由清單中選取這項服務並按下<guibutton>停止</guibutton>按鈕來將它停用。服務的狀態將會相應地更新。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:131(para)
+msgid ""
+"Reinitialize the runlevel — Reinitialize the runlevel by going to a shell "
+"prompt and typing the command <command>telinit <replaceable>x</replaceable></"
+"command> (where <replaceable>x</replaceable> is the runlevel number; for "
+"example, 3.). This option is recommended if you enable or disable multiple "
+"services and want to activate the changes immediately."
+msgstr "重新初始化 runlevel — 藉由在 shell 提示上輸入 <command>telinit <replaceable>x</replaceable></command> 指令（<replaceable>x</replaceable> 代表 runlevel 號碼；比方說 3。）來重新初始化 runlevel。若您啟用或停用多項服務並希望變更即刻生效的話，建議您使用此選項。"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:136(para)
+msgid ""
+"Do nothing else — You do not have to stop the <command>httpd</command> "
+"service. You can wait until the system is rebooted for the service to stop. "
+"The next time the system is booted, the runlevel is initialized without the "
+"<command>httpd</command> service running."
+msgstr "甚麼都不作 — 您無須停用 <command>httpd</command> 服務。您可等到服務在系統重新啟動後停用。下次系統啟動時，runlevel 將會被初始化而 <command>httpd</command> 服務將不會執行。"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:0(None)
+msgid "translator-credits"
+msgstr "譯者姓名：莊佳儒（tchuang@redhat.com，2009）"
+

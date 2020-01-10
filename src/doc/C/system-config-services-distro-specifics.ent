@@ -1,0 +1,12 @@
+<!ENTITY SYSTEM_CONFIG_SERVICES_TOOL "Service Configuration Tool">
+<!ENTITY SYSTEM_CONFIG_SERVICES_INVOCATION '
+    <indexterm significance="normal">
+        <primary><command>system-config-services</command>
+        </primary>
+        <see>&SYSTEM_CONFIG_SERVICES_TOOL;</see>
+    </indexterm>
+
+    <para>
+        You must be running the <application>X</application> Window System and have root privileges to use the &SYSTEM_CONFIG_SERVICES_TOOL;. To start the application on the desktop, go to <menuchoice>&DISTRO_MAINMENU;<guisubmenu>System</guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Services</guimenuitem></menuchoice>.
+    </para>
+'>

@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services.master-docs\n"
+"POT-Creation-Date: 2008-03-12 11:32+0100\n"
+"PO-Revision-Date: 2010-02-21 19:54+0200\n"
+"Last-Translator: Elad <el.il@doom.co.il>\n"
+"Language-Team: Hebrew <he-users@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: Israel\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:97(None)
+msgid "@@image: 'images/system-config-services.png'; md5=b16def702fe4c9ebb1c6f0c1c7721000"
+msgstr "@@image: 'images/system-config-services.png'; md5=b16def702fe4c9ebb1c6f0c1c7721000"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:22(title)
+msgid "Controlling Access to Services"
+msgstr "שליטה על הגישה לשירותים"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:27(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:28(date)
+msgid "2008-01-30"
+msgstr "2008-01-30"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:31(revnumber)
+msgid "1.1"
+msgstr "1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:32(date)
+msgid "2008-03-05"
+msgstr "2008-03-05"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:35(revnumber)
+msgid "1.1.1"
+msgstr "1.1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:36(date)
+msgid "2008-03-12"
+msgstr "2008-03-12"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:41(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:60(para)
+msgid "Maintaining security on your system is extremely important, and one approach for this task is to manage access to system services carefully. Your system may need to provide open access to particular services (for example, <command>httpd</command> if you are running a Web server). However, if you do not need to provide a service, you should turn it off to minimize your exposure to possible bug exploits."
+msgstr "שמירה על האבטחה של המערכת שלך היא דבר חשוב ביותר, וגישה אחת למשימה הזאת היא לנהל את הגישה לשירותי המערכת בזהירות. יתכן והמערכת שלך צריכה לספק גישה פתוח לשירות מסוים (לדוגמה <command>httpd</command> אם אתה מריץ שרת אינטרנט). לעומת זאת, אם אתה לא צריך לספק שירות, כדאי שתכבה אותו כדי להקטין את החשיפה של המערכת לפרצות אבטחה אפשריות."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:44(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:63(para)
+msgid "There are several different methods for managing access to system services. Choose which method of management to use based on the service, your system's configuration, and your level of Linux expertise."
+msgstr "יש מספר שיטות לניהול הגישה לשירותי מערכת. בחר איזו שיטה מתאימה לך לפי השירות, תצורת המערכת שלך, ורמת המומחיות שלך בלינוקס."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:47(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:66(para)
+msgid "The easiest way to deny access to a service is to turn it off. Both the services managed by <command>xinetd</command> and the services in the <filename>/etc/rc.d/init.d</filename> hierarchy (also known as SysV services) can be configured to start or stop with the <application>Services Configuration Tool</application>."
+msgstr "הדרך הכי טובה למנוע גישה לשירות היא לכבות אותו. גם השירותים שמנוהלים ע\"י  <command>xinetd</command> וגם השירותים שנמצאים בתוך <filename>/etc/rc.d/init.d</filename> (מוכרים גם כשירותי SysV) יכולים להיות מוגדרים להתחיל או להפסיק עם <application>כלי ניהול השירותים</application>."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:55(trademark)
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:54(corpauthor)
+msgid "<placeholder-1/>, Inc."
+msgstr "<placeholder-1/>, Inc."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:73(command)
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:75(see)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:84(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:86(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:94(application)
+msgid "Services Configuration Tool"
+msgstr "כלי להגדרת שירותים"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:78(para)
+msgid "You must be running the <application>X</application> Window System and have root privileges to use the Services Configuration Tool. To start the application on the desktop, go to <menuchoice><guimenu>the main menu on the panel (the menu with the \"f\" icon)</guimenu><guisubmenu>System</guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Services</guimenuitem></menuchoice>."
+msgstr "אתה חייב להריץ את מערכת החלונות <application>X</application> ולהיות בעל הרשאות root כדי להשתמש בכלי תצורת השירותים. כדי להתחיל את היישום על שולחן העבודה שלך, לחץ על  <menuchoice><guimenu>התפריט הראשי שעל הלוח (זה עם הסמליל בצורת \"f\")</guimenu><guisubmenu>מערכת</guisubmenu><guisubmenu>ניהול</guisubmenu><guimenuitem>שירותים</guimenuitem></menuchoice>."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:89(para)
+msgid "The <application>Services Configuration Tool</application> is a graphical application to configure which SysV services in the <filename>/etc/rc.d/init.d</filename> directory are started at boot time (for runlevels 3, 4, and 5) and which <command>xinetd</command> services are enabled. It also allows you to start, stop, and restart SysV services."
+msgstr "‏<application>כלי הגדרת השירותים</application> הוא ממשק גרפי להגדרת אילו שירותי SysV בתוך התיקייה <filename>/etc/rc.d/init.d</filename> מופעלים בזמן עליית המערכת (עבור רמות הריצה 3, 4 ו-5) ואילו שירותי <command>xinetd</command> מופעלים. הכלי מאפשר לך להפעיל, לעצור ולאתחל שירותי SysV."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:100(para)
+msgid "Configuring network services"
+msgstr "הגדרת שירותי רשת"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:106(para)
+msgid "The <application>Services Configuration Tool</application> lists the services from the <filename>/etc/rc.d/init.d</filename> directory as well as the services controlled by <command>xinetd</command>. Click on the name of the service from the list on the left-hand side of the application to display a brief description of that service as well as the status of the service. If the service is a SysV service, the status window shows whether the service is currently running."
+msgstr "‏<application>כלי הגדרת השירותים</application> מציג רשימה של השירותים מהתיקייה <filename>/etc/rc.d/init.d</filename> וגם שירותים הנשלטים ע\"י  <command>xinetd</command>. לחץ על שם של שירות מהרשימה בצד הימני של חלון היישום כדי להציג תיאור קצר של השירות הזה וגם את מצב השירות. אם השירות שבחרת הוא שירות SysV, חלון המצב אומר גם אם הוא מופעל כרגע."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:109(para)
+msgid "To start, stop, or restart a service immediately, select the service from the list and click the appropriate button on the toolbar (or choose the action from the <guimenu>Service</guimenu> pulldown menu). If the service is an <command>xinetd</command> service, the action buttons are disabled because they cannot be started or stopped individually."
+msgstr "כדי להפעיל, לעצור או להפעיל מחדש שירות באופן מיידי, בחר את השירות מהרשימה ולחץ על הכפתור המתאים בסרגל הכלים(או בחר בפעולה מתאימה מהתפריט guimenu>שירות</guimenu>). אם השירות הוא שירות <command>xinetd</command>, כפתורי הפעולות מנוטרלים מכיוון ששירותים מסוג זה לא ניתנים להפסקה או התחלה באופן אינדיבידואלי."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:113(title)
+msgid "Note"
+msgstr "הערה"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:114(para)
+msgid "When you save changes to <command>xinetd</command> services, <command>xinetd</command> is reloaded, and the changes take place immediately. When you save changes to other services, the runlevel is reconfigured, but the changes do not take effect immediately."
+msgstr "כדי לשמור את השינויים בשירותי <command>xinetd</command>, <command>xinetd</command> נטען מחדש, והשינויים חלים מיידית. כשאתה שומר שינויים בשירותים אחרים, רמת הריצה מוגדרת מחדש, אבל השינויים לא משפיעים מיידית."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:118(para)
+msgid "To enable a service, select the service in the list and click on one of the <guibutton>Enable</guibutton>, <guibutton>Disable</guibutton> or (to enable a SysV service in other than the default runlevels) <guibutton>Customize</guibutton> buttons in the toolbar or choose the equivalent action from the <guimenu>Service</guimenu> menu. In the case of a SysV service, the runlevel configuration is changed, but the runlevel is not restarted; thus, the changes do not take place immediately."
+msgstr "כדי לאפשר שירות, בחר את השירות ברשימה ולחץ על אחד מהכפתורים <guibutton>אפשר</guibutton>, <guibutton>נטרל</guibutton> או (כדי לאפשר שירות SysV  ברמות ריצה שונות מרמות ברירת המחדל) <guibutton>התאם אישית</guibutton> בסרגל הכלים, או בחר אפשרות המתאימה מהתפריט <guimenu>שירות</guimenu>. במקרה של שירות SysV, הגדרות רמות הריצה משתנות, אבל רמת הריצה לא מאותחלת, ובגלל זה השינויים לא חלים מיד."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:121(para)
+msgid "As an example: If you disable the <command>httpd</command> service, the runlevel configuration changes so that <command>httpd</command> is not started at boot time. However, the current runlevel is not reinitialized, so <command>httpd</command> is still running. Select one of following options at this point:"
+msgstr "בתור דוגמה: אם אתה מנטרל את השירות <command>httpd</command>, הגדרות רמת הריצה משתנות כך ש<command>httpd</command> לא מותחל בזמן עליית המערכת. למרות זאת, רמת הריצה הנוכחית לא מאותחלת, ולכן <command>httpd</command> עדיין עובד. בחר אחת מהאפשרויות הבאות בנקודה זו:"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:126(para)
+msgid "Stop the <command>httpd</command> service — Stop the service by selecting it from the list and clicking the <guibutton>Stop</guibutton> button. The status of the service will be updated accordingly."
+msgstr "הפסק את השירות <command>httpd</command> — הפסק את השירות ע\"י בחירתו מהרשימה ולחיצה על הכפתור <guibutton>עצור</guibutton>. המצב של השירות יעודכן בהתאם."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:131(para)
+msgid "Reinitialize the runlevel — Reinitialize the runlevel by going to a shell prompt and typing the command <command>telinit <replaceable>x</replaceable></command> (where <replaceable>x</replaceable> is the runlevel number; for example, 3.). This option is recommended if you enable or disable multiple services and want to activate the changes immediately."
+msgstr "אתחל מחדש את רמת הריצה — אתחל מחדש את אמת הריצה ע\"י מעבר למסוף והקלדת הפקודה <command>telinit <replaceable>x</replaceable></command> (כאשר <replaceable>x</replaceable> הוא מספר רמת הריצה; לדוגמה, 3). האפשרות הזו מומלצת אם אתה מנטרל או מאפשר מספר שירותים ורוצה להפעיל את השינויים באופן מיידי."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:136(para)
+msgid "Do nothing else — You do not have to stop the <command>httpd</command> service. You can wait until the system is rebooted for the service to stop. The next time the system is booted, the runlevel is initialized without the <command>httpd</command> service running."
+msgstr "אל תעשה דבר אחר — אתה לא חייב להפסיק את השירות <command>httpd</command>. אתה יכול לחכות עש המערכת תופעל מחדש כדי להפסיק את השירות. בפעם הבאה שהמערכת תופעל, רמת הריצה תאותחל בלי להפעיל את השירות <command>httpd</command>."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:0(None)
+msgid "translator-credits"
+msgstr "Elad <el.il@doom.co.il> 2010"
+

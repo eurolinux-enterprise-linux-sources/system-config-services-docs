@@ -1,0 +1,9 @@
+<para>
+    Maintaining security on your system is extremely important, and one approach for this task is to manage access to system services carefully. Your system may need to provide open access to particular services (for example, <command>httpd</command> if you are running a Web server). However, if you do not need to provide a service, you should turn it off to minimize your exposure to possible bug exploits.
+</para>
+<para>
+    There are several different methods for managing access to system services. Choose which method of management to use based on the service, your system&#39;s configuration, and your level of Linux expertise.
+</para>
+<para>
+    The easiest way to deny access to a service is to turn it off. Both the services managed by <command>xinetd</command> and the services in the <filename>/etc/rc.d/init.d</filename> hierarchy (also known as SysV services) can be configured to start or stop with the <application>&SYSTEM_CONFIG_SERVICES_TOOL;</application>.
+</para>

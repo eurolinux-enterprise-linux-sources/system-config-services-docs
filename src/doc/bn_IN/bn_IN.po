@@ -1,0 +1,209 @@
+# translation of system-config-services.master-docs.bn_IN.po to Bengali INDIA
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services.master-docs.bn_IN\n"
+"POT-Creation-Date: 2008-03-12 11:32+0100\n"
+"PO-Revision-Date: 2009-10-07 17:30+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:97(None)
+msgid ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+msgstr ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:22(title)
+msgid "Controlling Access to Services"
+msgstr "পরিসেবা ব্যবহারের অধিকার নিয়ন্ত্রণ ব্যবস্থা"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:27(revnumber)
+msgid "1.0"
+msgstr "১.০"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:28(date)
+msgid "2008-01-30"
+msgstr "২০০৮-০১-৩০"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:31(revnumber)
+msgid "1.1"
+msgstr "১.১"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:32(date)
+msgid "2008-03-05"
+msgstr "২০০৮-০৩-০৫"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:35(revnumber)
+msgid "1.1.1"
+msgstr "১.১.১"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:36(date)
+msgid "2008-03-12"
+msgstr "২০০৮-০৩-১২"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:41(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:60(para)
+msgid ""
+"Maintaining security on your system is extremely important, and one approach "
+"for this task is to manage access to system services carefully. Your system "
+"may need to provide open access to particular services (for example, "
+"<command>httpd</command> if you are running a Web server). However, if you "
+"do not need to provide a service, you should turn it off to minimize your "
+"exposure to possible bug exploits."
+msgstr ""
+"সিস্টেমের নিরাপত্তা বজায় রাখা অত্যন্ত গুরুত্বপূর্ণ এবং সিস্টেমের বিভিন্ন পরিসেবা ব্যবহারের অধিক নিয়ন্ত্রণের সাহায্যে কিছু মাত্রায় এটি করা সম্ভব হবে। কিছু সুনির্দিষ্ট পরিসেবার জন্য আপনার সিস্টেমে ব্যবহারাধিকার প্রদান করার প্রয়োজন দেখা দিতে পারে (যেমন, ওয়েব-সার্ভার ব্যবহারকালে"
+"<command>httpd</command> পরিসেবার ব্যবহার)। কোনো পরিসেবার প্রয়োজন না থাকলে সেটি বন্ধ করা বাঞ্ছনীয়। এর ফলে, বাগ থেকে উৎপন্ন বিপদের আশঙ্কা হ্রাস করা যাবে।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:44(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:63(para)
+msgid ""
+"There are several different methods for managing access to system services. "
+"Choose which method of management to use based on the service, your system's "
+"configuration, and your level of Linux expertise."
+msgstr "সিস্টেমের পরিসেবাগুলি ব্যবহারের অধিকার নিয়ন্ত্রণের বিভিন্ন পদ্ধতি উপস্থিত রয়েছে। প্রযোজ্য পরিসেবা, আপনার কম্পিউটারের কনফিগারেশন ও আপনার Linux ব্যবহারের পারদর্শিতা অনুযায়ী প্রয়োজনীয় পরিচালন পদ্ধতি নির্বাচন করুন।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:47(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:66(para)
+msgid ""
+"The easiest way to deny access to a service is to turn it off. Both the "
+"services managed by <command>xinetd</command> and the services in the "
+"<filename>/etc/rc.d/init.d</filename> hierarchy (also known as SysV "
+"services) can be configured to start or stop with the <application>Services "
+"Configuration Tool</application>."
+msgstr "কোনো পরিসেবা ব্যবহার প্রতিরোধ করার সবচেয়ে সহজ উপায় হল সেটিকে বন্ধ করে দেওয়া। <command>xinetd</command> দ্বারা পরিচালিত পরিসেবা ও <filename>/etc/rc.d/init.d</filename> অনুক্রমের পরিসেবাগুলি (SysV পরিসেবা নামে পরিচিত) <application>পরিসেবা কনফিগারেশন ব্যবস্থা</application> সহয়োগে আরম্ভ অথবা বন্ধ করা যাবে।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:55(trademark)
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:54(corpauthor)
+msgid "<placeholder-1/>, Inc."
+msgstr "<placeholder-1/>, Inc."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:73(command)
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:75(see)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:84(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:86(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:94(application)
+msgid "Services Configuration Tool"
+msgstr "পরিসেবা কনফিগারেশন ব্যবস্থা"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:78(para)
+msgid ""
+"You must be running the <application>X</application> Window System and have "
+"root privileges to use the Services Configuration Tool. To start the "
+"application on the desktop, go to <menuchoice><guimenu>the main menu on the "
+"panel (the menu with the \"f\" icon)</guimenu><guisubmenu>System</"
+"guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Services</"
+"guimenuitem></menuchoice>."
+msgstr "পরিসেবা কনফিগারেশন ব্যবস্থা ব্যবহারের জন্য চলমান <application>X</application> Window System ও root ব্যবহারকারীর অধিকার উপস্থিত থাকা আবশ্যক। ডেস্কটপ থেকে অ্যাপ্লিকেশনটি আরম্ভ করার জন্য <menuchoice><guimenu>প্যানেলে উপস্থিত প্রধান মেনু (\"f\" অক্ষর বিশিষ্ট আইকন সহ মেনু) থেকে</guimenu><guisubmenu>সিস্টেম</guisubmenu><guisubmenu>প্রশাসনিক কর্ম</guisubmenu><guimenuitem>পরিসেবা</guimenuitem></menuchoice> নির্বাচন করুন।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:89(para)
+msgid ""
+"The <application>Services Configuration Tool</application> is a graphical "
+"application to configure which SysV services in the <filename>/etc/rc.d/init."
+"d</filename> directory are started at boot time (for runlevels 3, 4, and 5) "
+"and which <command>xinetd</command> services are enabled. It also allows you "
+"to start, stop, and restart SysV services."
+msgstr "সিস্টেম বুট করার সময় (runlevel ৩, ৪, ও ৫-র জন্য) <filename>/etc/rc.d/init.d</filename> ডিরেক্টরির মধ্যে উপস্থিত কোনো SysV  পরিসেবাগুলি ও <command>xinetd</command> পরিসেবাগুলি আরম্ভ করা হবে তা <application>পরিসেবা কনফিগারেশন ব্যবস্থা</application> সহযোগে চিহ্নিত করা যাবে। এটি একটি গ্রাফিক্যাল অ্যাপ্লিকেশন। এই অ্যাপ্লিকেশনের সাহায্যে আপনি SysV পরিসেবাগুলি আরম্ভ, বন্ধ ও পুনরারম্ভ করতে পারবেন।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:100(para)
+msgid "Configuring network services"
+msgstr "নেটওয়ার্ক পরিসেবা কনফিগার করার প্রণালী"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:106(para)
+msgid ""
+"The <application>Services Configuration Tool</application> lists the "
+"services from the <filename>/etc/rc.d/init.d</filename> directory as well as "
+"the services controlled by <command>xinetd</command>. Click on the name of "
+"the service from the list on the left-hand side of the application to "
+"display a brief description of that service as well as the status of the "
+"service. If the service is a SysV service, the status window shows whether "
+"the service is currently running."
+msgstr "<application>পরিসেবা কনফিগারেশন ব্যবস্থা</application> দ্বারা <filename>/etc/rc.d/init.d</filename> ডিরেক্টরির পরিসেবা ও <command>xinetd</command> দ্বারা নিয়ন্ত্রিত পরিসেবাগুলির তালিকা প্রদর্শন করা হয়। অ্যাপ্লিকেশনের প্রদর্শনক্ষেত্রের বাঁদিকে উপস্থিত তালিকা থেকে কোনো পরিসেবার নামে উপর ক্লিক করা হলে সেটির সংক্ষিপ্ত বিবরণ ও বর্তমান অবস্থা সম্পর্কে তথ্য প্রদর্শন করা হয়। SysV পরিসেবার ক্ষেত্রে, পরিসেবাটি বর্তমানে চলছে কি না তা অবস্থাসূচক উইন্ডোর মধ্যে প্রদর্শন করা হয়।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:109(para)
+msgid ""
+"To start, stop, or restart a service immediately, select the service from "
+"the list and click the appropriate button on the toolbar (or choose the "
+"action from the <guimenu>Service</guimenu> pulldown menu). If the service is "
+"an <command>xinetd</command> service, the action buttons are disabled "
+"because they cannot be started or stopped individually."
+msgstr "বিনা বিলম্বে কোনো পরিসেবা আরম্ভ, বন্ধ অথবা পুনরারম্ভ করার জন্য তালিকা থেকে পরিসেবাটি নির্বাচন করুন ও টুলবার থেকে প্রযোজ্য বাটন ক্লিক করুন (অথবা <guimenu>পরিসেবা</guimenu> শীর্ষক মেনু থেকে প্রযোজ্য কর্ম নির্বাচন করুন)। <command>xinetd</command> পরিসেবাগুলির স্বতন্ত্রভাবে আরম্ভ ও বন্ধ করা সম্ভব না হওয়ার ফলে, এই পরিসেবাগুলির ক্ষেত্রে কর্ম সঞ্চালনার এই বাটনগুলি নিষ্ক্রিয় অবস্থায় থাকে।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:113(title)
+msgid "Note"
+msgstr "উল্লেখ্য"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:114(para)
+msgid ""
+"When you save changes to <command>xinetd</command> services, "
+"<command>xinetd</command> is reloaded, and the changes take place "
+"immediately. When you save changes to other services, the runlevel is "
+"reconfigured, but the changes do not take effect immediately."
+msgstr "<command>xinetd</command> পরিসেবাগুলির মধ্যে কোনো পরিবর্তন সংরক্ষণ করা হলে <command>xinetd</command> পুনরায় লোড করা হয় ও পরিবর্তনগুলি তৎক্ষনাৎ প্রয়োগ করা হয়। অন্যান্য পরিসেবায় করা পরিবর্তনগুলি সংরক্ষণ করা হলে, runlevel পুনরায় কনফিগার করা হয় কিন্তু পরিবর্তনগুলি তৎক্ষনাৎ প্রয়োগ করা হয় না।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:118(para)
+msgid ""
+"To enable a service, select the service in the list and click on one of the "
+"<guibutton>Enable</guibutton>, <guibutton>Disable</guibutton> or (to enable "
+"a SysV service in other than the default runlevels) <guibutton>Customize</"
+"guibutton> buttons in the toolbar or choose the equivalent action from the "
+"<guimenu>Service</guimenu> menu. In the case of a SysV service, the runlevel "
+"configuration is changed, but the runlevel is not restarted; thus, the "
+"changes do not take place immediately."
+msgstr "কোনো পরিসেবা সক্রিয় করার জন্য, তালিকা থেকে সেটি নির্বাচন করুন ও টুলবার থেকে <guibutton>সক্রিয়</guibutton>, <guibutton>নিষ্ক্রিয়</guibutton> অথবা (ডিফল্ট runlevel ভিন্ন অন্য কোনো runlevel-এ SysV পরিসেবা আরম্ভের জন্য) <guibutton>স্বনির্ধারিত</guibutton> বাটন টিপুন অথবা <guimenu>পরিসেবা</guimenu> শীর্ষক মেনু থেকে প্রযোজ্য কর্ম বাছাই করুন। SysV পরিসেবার ক্ষেত্রে runlevel-র কনফিগারেশন পরিবর্তন করা হয় কিন্তু runlevel পুনরায় আরম্ভ করা হয় না; এর ফলে পরিবর্তনগুলি তৎক্ষণাৎ প্রয়োগ করা হয় না।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:121(para)
+msgid ""
+"As an example: If you disable the <command>httpd</command> service, the "
+"runlevel configuration changes so that <command>httpd</command> is not "
+"started at boot time. However, the current runlevel is not reinitialized, so "
+"<command>httpd</command> is still running. Select one of following options "
+"at this point:"
+msgstr "উদাহরণস্বরূপ: <command>httpd</command> পরিসেবাটি নিষ্ক্রিয় করা হলে runlevel-র কনফিগারেশন পরিবর্তন করা হয় ও এর ফলে সিস্টেম বুট করার সময় <command>httpd</command> আরম্ভ করা হয় না। কিন্তু পরিসেবার পরিবর্তনের পরে বর্তমান runlevel পুনরায় আরম্ভ না হওয়ার ফলে <command>httpd</command> সঞ্চালনা অবিঘ্নিত থাকে। এই পরিস্থিতিতে নিম্নলিখিত বিকল্পগুলির মধ্যে একটি নির্বাচন করুন:"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:126(para)
+msgid ""
+"Stop the <command>httpd</command> service — Stop the service by selecting it "
+"from the list and clicking the <guibutton>Stop</guibutton> button. The "
+"status of the service will be updated accordingly."
+msgstr "<command>httpd</command> পরিসেবা বন্ধ করুন — তালিকা থেকে এই পরিসেবাটি নির্বাচন করুন ও <guibutton>বন্ধ</guibutton> শীর্ষক বাটনটি টিপে এটিকে বন্ধ করুন। এর ফলে পরিসেবার অবস্থা আপডেট করা হবে।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:131(para)
+msgid ""
+"Reinitialize the runlevel — Reinitialize the runlevel by going to a shell "
+"prompt and typing the command <command>telinit <replaceable>x</replaceable></"
+"command> (where <replaceable>x</replaceable> is the runlevel number; for "
+"example, 3.). This option is recommended if you enable or disable multiple "
+"services and want to activate the changes immediately."
+msgstr ""
+"runlevel পুনরারম্ভ — শেল প্রম্পেট প্রবেশ করে <command>telinit <replaceable>x</replaceable></"
+"command> (<replaceable>x</replaceable>-র পরিবর্তে runlevel সংখ্যা লিখুন; যেমন, 3।) কমান্ড সহযোগে runlevel-টি পুনরায় আরম্ভ করুন। একাধিক পরিসেবা সক্রিয় অথবা নিষ্ক্রিয় করার পরে পরিবর্তনগুলি অবিলম্বে প্রয়োগ করার জন্য এই বিকল্পটি ব্যবহার করা বাঞ্ছনীয়।"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:136(para)
+msgid ""
+"Do nothing else — You do not have to stop the <command>httpd</command> "
+"service. You can wait until the system is rebooted for the service to stop. "
+"The next time the system is booted, the runlevel is initialized without the "
+"<command>httpd</command> service running."
+msgstr "কিছু না করা — <command>httpd</command> বন্ধ করার প্রয়োজন নেই ও সিস্টেমটি পুনরায় আরম্ভের পরে পরিসেবাটি বন্ধ হওয়ার অপেক্ষা করা যেতে পারে। পরবর্তীবার সিস্টেমটি বুট করা হলে, প্রযোজ্য runlevel আরম্ভের সময় <command>httpd</command> পরিসেবা আরম্ভ করা হবে না।"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:0(None)
+msgid "translator-credits"
+msgstr "রুণা ভট্টাচার্য্য (runab@redhat.com)"
+

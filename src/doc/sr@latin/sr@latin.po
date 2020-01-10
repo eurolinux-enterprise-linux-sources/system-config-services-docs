@@ -1,0 +1,265 @@
+# Igor Miletic (Igor Miletić) <grejigl-gnomeprevod@yahoo.ca>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services.doc\n"
+"POT-Creation-Date: 2008-03-13 15:26+0100\n"
+"PO-Revision-Date: 2009-04-06 11:59-0400\n"
+"Last-Translator: Igor Miletic (Igor Miletić) <grejigl-gnomeprevod@yahoo.ca>\n"
+"Language-Team: Serbian <fedora-trans-sr@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:97(None)
+msgid ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+msgstr ""
+"@@image: 'images/system-config-services.png'; "
+"md5=b16def702fe4c9ebb1c6f0c1c7721000"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:22(title)
+msgid "Controlling Access to Services"
+msgstr "Kontrola pristupa servisima"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:27(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:28(date)
+msgid "2008-01-30"
+msgstr "2008-01-30"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:31(revnumber)
+msgid "1.1"
+msgstr "1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:32(date)
+msgid "2008-03-05"
+msgstr "2008-03-05"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:35(revnumber)
+msgid "1.1.1"
+msgstr "1.1.1"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:36(date)
+msgid "2008-03-12"
+msgstr "2008-03-12"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:41(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:60(para)
+msgid ""
+"Maintaining security on your system is extremely important, and one approach "
+"for this task is to manage access to system services carefully. Your system "
+"may need to provide open access to particular services (for example, "
+"<command>httpd</command> if you are running a Web server). However, if you "
+"do not need to provide a service, you should turn it off to minimize your "
+"exposure to possible bug exploits."
+msgstr ""
+"Održavanje bezbednosti sistema je veoma važno, a jedan način je pažljiva "
+"kontrola pristupa servisima. Nekada je potrebno da sistem pruži slobodan "
+"pristup određenim servisima (na primer, <command>httpd</command> ako je veb "
+"server pokrenut). Međutim, ako servis nije potreban, isključite ga kako "
+"biste smanjili izloženost mogućim napadima zbog greške u programu."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:44(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:63(para)
+msgid ""
+"There are several different methods for managing access to system services. "
+"Choose which method of management to use based on the service, your system's "
+"configuration, and your level of Linux expertise."
+msgstr ""
+"Postoje nekoliko različitih načina kontrole pristupa sistemskim servisima. "
+"Izaberite način kontrole u zavisnosti od servisa, podešavanja sistema i "
+"Vašeg znanja Linuxa."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:47(para)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:66(para)
+msgid ""
+"The easiest way to deny access to a service is to turn it off. Both the "
+"services managed by <command>xinetd</command> and the services in the "
+"<filename>/etc/rc.d/init.d</filename> hierarchy (also known as SysV "
+"services) can be configured to start or stop with the <application>Services "
+"Configuration Tool</application>."
+msgstr ""
+"Najjednostavniji način zabrane pristupa je isključivanje servisa. Servisi "
+"kojima upravlja <command>xinetd</command> kao i servisi u hijerarhiji "
+"direktorijuma <filename>/etc/rc.d/init.d</filename> (takođe poznati kao SysV "
+"servisi) se mogu podesiti da budu pokrenuti ili zaustavljeni sa "
+"<application>Alatkom za podešavanje sistema</application>."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:55(trademark)
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:54(corpauthor)
+msgid "<placeholder-1/>, Inc."
+msgstr "<placeholder-1/>, Inc."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:73(command)
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:75(see)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:84(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:86(application)
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:94(application)
+msgid "Services Configuration Tool"
+msgstr "Alatka za podešavanje servisa"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:78(para)
+msgid ""
+"You must be running the <application>X</application> Window System and have "
+"root privileges to use the Services Configuration Tool. To start the "
+"application on the desktop, go to <menuchoice><guimenu>the main menu on the "
+"panel (the menu with the \"f\" icon)</guimenu><guisubmenu>System</"
+"guisubmenu><guisubmenu>Administration</guisubmenu><guimenuitem>Services</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Morate pokrenuti <application>X</application> sistem prozora i imati root "
+"ovlašćenja kako biste mogli koristiti Alatku za podešavanje servisa. Da "
+"biste pokrenuli program u radnom okruženju, idite na <menuchoice><guimenu> "
+"glavni meni na panelu (meni sa „f“ ikonom)</guimenu><guisubmenu>Sistem</"
+"guisubmenu><guisubmenu>Administracija</guisubmenu><guimenuitem>Servisi</"
+"guimenuitem></menuchoice>."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:89(para)
+msgid ""
+"The <application>Services Configuration Tool</application> is a graphical "
+"application to configure which SysV services in the <filename>/etc/rc.d/init."
+"d</filename> directory are started at boot time (for runlevels 3, 4, and 5) "
+"and which <command>xinetd</command> services are enabled. It also allows you "
+"to start, stop, and restart SysV services."
+msgstr ""
+"<application>Alatka za podešavanje servisa</application> je grafički program "
+"koji podešava koji SysV servisi u <filename>/etc/rc.d/init.d</filename> "
+"direktorijumu će biti pokrenuti tokom podizanja sistema (za izvršne nivoe "
+"3,4 i 5) i koji <command>xinetd</command> servisi će biti uključeni. Takođe "
+"dozvoljava pokretanje, zaustavljanje i ponovno pokretanje SysV servisa."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:100(para)
+msgid "Configuring network services"
+msgstr "Podešavanje mrežnih servisa"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:106(para)
+msgid ""
+"The <application>Services Configuration Tool</application> lists the "
+"services from the <filename>/etc/rc.d/init.d</filename> directory as well as "
+"the services controlled by <command>xinetd</command>. Click on the name of "
+"the service from the list on the left-hand side of the application to "
+"display a brief description of that service as well as the status of the "
+"service. If the service is a SysV service, the status window shows whether "
+"the service is currently running."
+msgstr ""
+"<application>Alatka za podešavanje servisa</application> izlistava servise "
+"iz <filename>/etc/rc.d/init.d</filename> direktorijuma kao i servise "
+"kontrolisane od strane <command>xinetd</command>-a. Kliknite na ime servisa "
+"sa spiska na levoj strani programa da prikažete kratak opis i status tog "
+"servisa. Ako je servis SysV servis, prozor stanja prikazuje dali je servis "
+"trenutno pokrenut."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:109(para)
+msgid ""
+"To start, stop, or restart a service immediately, select the service from "
+"the list and click the appropriate button on the toolbar (or choose the "
+"action from the <guimenu>Service</guimenu> pulldown menu). If the service is "
+"an <command>xinetd</command> service, the action buttons are disabled "
+"because they cannot be started or stopped individually."
+msgstr ""
+"Da biste odmah pokrenuli, zaustavili ili ponovo pokrenuli servis, izaberite "
+"servis sa spiska i kliknite na odgovarajuće dugme na paleti alatki (ili "
+"izaberite radnju sa padajućeg spiska <guimenu>Servis</guimenu>). Ako je "
+"servis <command>xinetd</command> servis, dugmići za radnje su onemogućeni "
+"zato što se oni ne mogu ponaosob pokrenuti ili zaustaviti."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:113(title)
+msgid "Note"
+msgstr "Napomena"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:114(para)
+msgid ""
+"When you save changes to <command>xinetd</command> services, "
+"<command>xinetd</command> is reloaded, and the changes take place "
+"immediately. When you save changes to other services, the runlevel is "
+"reconfigured, but the changes do not take effect immediately."
+msgstr ""
+"Kada sačuvate izmene za <command>xinetd</command> servise, <command>xinetd</"
+"command> je ponovo učitan i promene odmah stupaju na snagu. Kada sačuvate "
+"promene za druge servise, podešavanja izvršnog nivoa su promenjena, ali "
+"podešavanja ne stupaju na snagu odmah."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:118(para)
+msgid ""
+"To enable a service, select the service in the list and click on one of the "
+"<guibutton>Enable</guibutton>, <guibutton>Disable</guibutton> or (to enable "
+"a SysV service in other than the default runlevels) <guibutton>Customize</"
+"guibutton> buttons in the toolbar or choose the equivalent action from the "
+"<guimenu>Service</guimenu> menu. In the case of a SysV service, the runlevel "
+"configuration is changed, but the runlevel is not restarted; thus, the "
+"changes do not take place immediately."
+msgstr ""
+"Da biste uključili servis, izaberite ga sa spiska u kliknite na jedno od "
+"<guibutton>Uključi</guibutton>, <guibutton>Isključi</guibutton> ili (da "
+"biste uključili SysV servise u drugim izvršnim nivoima) "
+"<guibutton>Prilagodi</guibutton> dugmića u paleti alatki ili izaberite jednu "
+"od ekvivalentnih radnji iz <guimenu>Servis</guimenu> menija. Za SysV "
+"servise, podešavanja za izvršni nivo su promenjena, ali izvršni nivo nije "
+"ponovo pokrenut, zato promene ne stupaju na snagu odmah."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:121(para)
+msgid ""
+"As an example: If you disable the <command>httpd</command> service, the "
+"runlevel configuration changes so that <command>httpd</command> is not "
+"started at boot time. However, the current runlevel is not reinitialized, so "
+"<command>httpd</command> is still running. Select one of following options "
+"at this point:"
+msgstr ""
+"Na primer: ako isključite <command>httpd</command> servis, podešavanja "
+"izvršnog nivoa se promene tako da  <command>httpd</command> nije pokrenut "
+"tokom podizanja sistema. Međutim, trenutni izvršni nivo nije ponovo "
+"inicijalizovan, tako da <command>httpd</command> još uvek radi. U ovom "
+"trenutku možete izabrati jednu od sledećih opcija:"
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:126(para)
+msgid ""
+"Stop the <command>httpd</command> service — Stop the service by selecting it "
+"from the list and clicking the <guibutton>Stop</guibutton> button. The "
+"status of the service will be updated accordingly."
+msgstr ""
+"Zaustavite <command>httpd</command> servis — Zaustavite servis birajući ga "
+"na spisku i klikćući na dugme <guibutton>Zaustavi</guibutton>. U skladu sa "
+"tim, stanje servisa će biti promenjeno."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:131(para)
+msgid ""
+"Reinitialize the runlevel — Reinitialize the runlevel by going to a shell "
+"prompt and typing the command <command>telinit <replaceable>x</replaceable></"
+"command> (where <replaceable>x</replaceable> is the runlevel number; for "
+"example, 3.). This option is recommended if you enable or disable multiple "
+"services and want to activate the changes immediately."
+msgstr ""
+"Ponovo pokrenite izvršni nivo — Možete ponovo pokrenuti izvršni nivo tako "
+"što ćete otići u terminal i izvršiti sledeću naredbu <command>telinit "
+"<replaceable>x</replaceable></command> (gde <replaceable>x</replaceable> "
+"stoji za broj izvršnog nivoa, na primer 3). Ova opcija je preporučena ako "
+"ste uključili ili isključili mnoge servise i želite da promene odmah uzmu "
+"maha."
+
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:136(para)
+msgid ""
+"Do nothing else — You do not have to stop the <command>httpd</command> "
+"service. You can wait until the system is rebooted for the service to stop. "
+"The next time the system is booted, the runlevel is initialized without the "
+"<command>httpd</command> service running."
+msgstr ""
+"Ne radite ništa — Ne morate zaustaviti <command>httpd</command> servis. "
+"Možete čekati do ponovnog pokretanja sistema da bi se servis zaustavio. "
+"Sledeći put kada se sistem pokrene, izvršni nivo je inicijalizovan bez "
+"<command>httpd</command> servisa."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: /home/nils/src/system-config-services/hosted/doc/C/system-config-services-complete.xml:0(None)
+msgid "translator-credits"
+msgstr "Igor Miletić <grejigl-gnomeprevod@yahoo.ca>, 2009."
